@@ -5,7 +5,7 @@ Vue.use(VueRouter);
  
 import ExampleComponent from "./components/ExampleComponent.vue";
 import ExampleComponent2 from "./components/Ex2.vue";
- 
+
 const router = new VueRouter({
     mode: "history",
     routes: [
