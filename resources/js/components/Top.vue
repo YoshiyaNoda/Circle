@@ -4,7 +4,7 @@
             <h1 class="title">ようこそ、　〇〇へ</h1>
             <div class="paragraphContainer">
                 <h2>とりあえず、プログラミングやりたい人 Come on in!!</h2>
-                <p>プログラミングがやりたくて挫折した人、<router-link to="contact">とりあえず連絡して</router-link>ください。そんなあなたの為に作ったサークルです。お金を取られるとか、心配しないでください。ただの有志の慈善活動です。</p>
+                <p>プログラミングがやりたくて挫折した人、<router-link to="contact">とりあえず連絡して</router-link>ください。そんなあなたの為に作ったサークルです。お金を取られるだとかの心配は無用です。ただの有志の慈善活動です。</p>
             </div>
             <div class="paragraphContainer">
                 <h2>なんのサークル?</h2>
