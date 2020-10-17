@@ -4,11 +4,12 @@
             <h1 class="title">連絡先交換</h1>
             <div class="paragraphContainer">
                 <h2>メール</h2>
-                <p>〇〇@gmail.com にて連絡をお待ちしています。</p>
+                <p><img src="https://ysy-portfolio.s3-ap-northeast-1.amazonaws.com/img/circle_meru.jpeg" alt=""> にて連絡をお待ちしています。</p>
             </div>
             <div class="paragraphContainer">
-                <h2>LINE</h2>
-                <p>QRコード読みとりで友達登録できます。</p>
+                <h2>Twitter</h2>
+                <p>アカウントのIDは @Web87996373 です!!</p>
+                <p><a href="https://twitter.com/Web87996373">こいつです。</a>気軽にDMをください!!</p>
             </div>
         </div>
     </div>
