@@ -2,8 +2,11 @@
     <div id="header">
         <div class="leftArea"><span>LOGO</span></div>
         <div class="rightArea">
-            <div class="contactUs">
-                <div class="linkWrapper"><router-link to="contact">CONTACT</router-link></div>
+            <div class="btnWrapper">
+                <div class="linkWrapper"><router-link to="/"><span>TOP</span></router-link></div>
+            </div>
+            <div class="btnWrapper">
+                <div class="linkWrapper"><router-link to="contact"><span>CONTACT</span></router-link></div>
             </div>
         </div>
     </div>
@@ -22,6 +25,9 @@ export default {
     height: 100px;
     background-color: rgba(150,150,150,0.3);
     position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+
     > .leftArea {
         position: absolute;
         left: 0;
@@ -37,17 +43,25 @@ export default {
         }
     }
     > .rightArea {
-        float: right;
         height: 100%;
-        > .contactUs {
+        > .btnWrapper {
+            float: right;
             height: 100%;
             width: 100px;
             position: relative;
             > .linkWrapper {
                 position: absolute;
                 top: 50%;
-                right: 50%;
+                left: 50%;
                 transform: translateX(-50%) translateY(-50%);
+                > a {
+                    border: none;
+                    text-decoration: none;
+                    span {
+                        color: white;
+                    }
+
+                }
             }
         }
     }
