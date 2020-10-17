@@ -4,20 +4,20 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
  
 import ExampleComponent from "./components/ExampleComponent.vue";
-import ExampleComponent2 from "./components/Ex2.vue";
+import Top from "./components/Top.vue";
 
 const router = new VueRouter({
     mode: "history",
     routes: [
         {   
-            path: "/f",
-            name: "example",
-            component: ExampleComponent
+            path: "/",
+            name: "top",
+            component: Top
         },
         {   
-            path: "/",
-            name: "example2",
-            component: ExampleComponent2
+            path: "/contact",
+            name: "contact",
+            component: ExampleComponent
         },
     ]
 });

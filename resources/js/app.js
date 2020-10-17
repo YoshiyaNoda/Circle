@@ -19,7 +19,7 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+// Vue.component('header-component', require('./components/Header.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -28,8 +28,12 @@ window.Vue = require('vue');
  */
 
 import router from "./router";
- 
+import HeaderItem from "./components/Header.vue";
+
 const app = new Vue({
     el: "#app",
-    router: router
+    router: router,
+    components: {
+        HeaderItem
+    }
 });
