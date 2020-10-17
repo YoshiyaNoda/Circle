@@ -1,6 +1,6 @@
 <template>
     <div id="header">
-        <div class="leftArea"><span>LOGO</span></div>
+        <div class="leftArea"><span><img src="https://ysy-portfolio.s3-ap-northeast-1.amazonaws.com/img/logo1.png" alt=""></span></div>
         <div class="rightArea">
             <div class="btnWrapper">
                 <div class="linkWrapper"><router-link to="/"><span>TOP</span></router-link></div>
@@ -23,7 +23,8 @@ export default {
 #header {
     width: 100%;
     height: 100px;
-    background-color: rgba(150,150,150,0.3);
+    // background-color: rgba(150,150,150,0.3);
+    background-color: white;
     position: relative;
     padding-left: 30px;
     padding-right: 30px;
@@ -58,7 +59,7 @@ export default {
                     border: none;
                     text-decoration: none;
                     span {
-                        color: white;
+                        color: rgba(145, 189, 240, 1.0);
                     }
 
                 }
