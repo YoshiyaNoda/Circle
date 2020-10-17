@@ -3,8 +3,8 @@ import VueRouter from "vue-router";
  
 Vue.use(VueRouter);
  
-import ExampleComponent from "./components/ExampleComponent.vue";
 import Top from "./components/Top.vue";
+import Contact from "./components/Contact.vue";
 
 const router = new VueRouter({
     mode: "history",
@@ -17,7 +17,7 @@ const router = new VueRouter({
         {   
             path: "/contact",
             name: "contact",
-            component: ExampleComponent
+            component: Contact
         },
     ]
 });
