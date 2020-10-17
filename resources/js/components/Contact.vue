@@ -30,7 +30,8 @@ export default {
     width: 100%;
     padding: 20px;
     .container {
-        background: rgba(246, 247, 248, 0.7);
+        // background: rgba(246, 247, 248, 0.7);
+        background: rgba(255,255,255,0.9);
         min-height: 500px;
         width: 70%;
         padding: 20px;

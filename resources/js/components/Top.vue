@@ -1,7 +1,7 @@
 <template>
     <div id="topContainer">
         <div class="container">
-            <h1 class="title">ようこそ、　〇〇へ</h1>
+            <h1 class="title">ようこそ、慶應アプリケーション制作サークルへ！！</h1>
             <div class="paragraphContainer">
                 <h2>とりあえず、プログラミングやりたい人 Come on in!!</h2>
                 <p>プログラミングがやりたくて挫折した人、<router-link to="contact">とりあえず連絡して</router-link>ください。そんなあなたの為に作ったサークルです。お金を取られるだとかの心配は無用です。ただの有志の慈善活動です。</p>
@@ -37,7 +37,7 @@ export default {
     width: 100%;
     padding: 20px;
     .container {
-        background: rgba(246, 247, 248, 0.7);
+        background: rgba(255,255,255,0.9);
         min-height: 500px;
         width: 70%;
         padding: 20px;
