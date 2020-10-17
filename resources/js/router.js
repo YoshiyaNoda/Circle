@@ -10,7 +10,7 @@ const router = new VueRouter({
     mode: "history",
     routes: [
         {   
-            path: "/books",
+            path: "/f",
             name: "example",
             component: ExampleComponent
         },
