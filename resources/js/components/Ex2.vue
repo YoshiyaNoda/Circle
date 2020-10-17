@@ -8,6 +8,9 @@
                     <div class="card-body">
                         I'm an example component.
                     </div>
+                    <div class="btnWrapper">
+                        <router-link to="/f">to 1</router-link>
+                    </div>
                 </div>
             </div>
         </div>
