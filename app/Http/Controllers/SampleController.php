@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Sample;
 
 use Illuminate\Http\Request;
 
@@ -12,6 +13,10 @@ class SampleController extends Controller
     }
     public function samplePost(Request $request) {
         $data = $request->confirm;
+        Sample::create([
+            'name' => $request->confirm
+        ]);
+        $data = Sample::all();
         return view('sample', compact('data'));
     }
 }

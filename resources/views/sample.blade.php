@@ -1,8 +1,12 @@
-<p>
+<div>
 <?php
-echo($data ?? 'nothing')
+    if(isset($data)) {
+        foreach($data as $d) {
+            echo("<p>".$d->name."</p>");
+        }
+    }
 ?>
-</p>
+</div>
 
 <h1>Hello, World!!</h1>
 
