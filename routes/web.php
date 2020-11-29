@@ -13,11 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
+Route::get('/', function () {
+    return view('index');
+});
+Route::get('/contact', function () {
+    return view('index');
+});
+Route::get('/sample', function () {
+    return view('sample');
+});
+Route::get('/fetch_sample', 'App\Http\Controllers\SampleController@sample');
+Route::post('/sample_post', 'App\Http\Controllers\SampleController@samplePost');
 
 Route::get('{any}', function () {
     return view('index');
 })->where('any', '.*');
+
