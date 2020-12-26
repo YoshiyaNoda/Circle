@@ -25,7 +25,7 @@ Route::get('/sample', function () {
 Route::get('/fetch_sample', 'App\Http\Controllers\SampleController@sample');
 Route::post('/sample_post', 'App\Http\Controllers\SampleController@samplePost');
 
-Route::get('{any}', function () {
-    return view('index');
-})->where('any', '.*');
+// Route::get('{any}', function () {
+//     return view('index');
+// })->where('any', '.*');
 
