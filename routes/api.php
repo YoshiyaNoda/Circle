@@ -18,8 +18,11 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::group(['middleware' => 'api'], function() {
+Route::group(['middleware' => ['api', 'cors']], function() {
     Route::get('/fetch', function() {
         return "Hello Laravel API";
+    });
+    Route::get('/hoge', function() {
+        return "Hello Hoge API";
     });
 });
