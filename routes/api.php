@@ -26,7 +26,8 @@ Route::group(['middleware' => ['api', 'cors']], function() {
     Route::get('/hoge', function() {
         return "Hello Hoge API";
     });
-    Route::get('test', function() {
+    Route::get('fetch_images', function() {
         return \App\Models\Image::all();
     });
+
 });
