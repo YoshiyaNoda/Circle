@@ -22,6 +22,7 @@ Route::group(['middleware' => ['api', 'cors']], function() {
     Route::get('/fetch', function() {
         return "Hello Laravel API";
     });
+
     Route::get('/hoge', function() {
         return "Hello Hoge API";
     });

@@ -18,8 +18,10 @@ class SampleController extends Controller
     public function samplePost(Request $request) {
         $data = $request->confirm;
         Sample::create([
-            'name' => $request->confirm
+            // 'name' => $request->confirm
+            'name' =>  Sample::sample($request->confirm)
         ]);
+        // クエリビルダー
         $data = Sample::all();
         return view('sample', compact('data'));
     }
