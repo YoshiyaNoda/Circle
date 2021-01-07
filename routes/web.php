@@ -29,3 +29,6 @@ Route::get('{any}', function () {
     return view('index');
 })->where('any', '.*');
 
+Route::get('test', function() {
+    return \App\Models\Article::all();
+});
