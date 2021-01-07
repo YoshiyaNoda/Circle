@@ -22,4 +22,5 @@ Route::group(['middleware' => 'api'], function() {
     Route::get('/fetch', function() {
         return "Hello Laravel API";
     });
+    
 });

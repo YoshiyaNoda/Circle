@@ -10,4 +10,8 @@ class Sample extends Model
     use HasFactory;
     protected $gurded = [];
     protected $fillable = ['name'];
+    static public function sample($d) {
+        return $d.$d;
+
+    }
 }
